@@ -1,0 +1,12 @@
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    display: none;
+}
+
+.menu__email {
+    display: block;
+    margin-right: 1em;
+}
