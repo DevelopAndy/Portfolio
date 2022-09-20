@@ -4,10 +4,12 @@ html {
     color: #464646;
 }
 
-.logo {
-    margin-left: 1em;
+body {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 18.5px;
 }
 
-.about {
-    display: none;
+.logo {
+    margin-left: 1em;
 }

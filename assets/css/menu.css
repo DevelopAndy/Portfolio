@@ -7,6 +7,6 @@
 }
 
 .menu__email {
-    display: block;
-    margin-right: 1em;
+    display: flex;
+    font-size: 14px;
 }

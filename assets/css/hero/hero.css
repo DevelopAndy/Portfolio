@@ -1,10 +1,9 @@
 .hero {
     position: relative;
-    height: 148px;
-    left: 16px;
     padding: 0;
     gap: 16px;
     width: 328px;
+    
 }
 
 .hero__title {
