@@ -1,0 +1,42 @@
+.skills {
+    margin: 16px 16px;
+}
+
+.skills__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.skills__contenido {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: skills;
+    justify-content: space-between;
+}
+
+.skills__skill {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas: 
+    "skill-img"
+    "skill-base";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto;
+    margin-top: 20px;
+    padding: 1.3rem 1rem 0rem 1rem;
+    width: calc(50% - 3rem);
+}
+
+.skills__skill__img {
+    grid-area: skill-img;
+    height: 100%;
+    width: 100%;
+}
+
+.skills h3 {
+    grid-area: skill-base;
+    text-align: center;
+}
