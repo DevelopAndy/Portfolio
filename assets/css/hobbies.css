@@ -1,0 +1,35 @@
+.hobbies {
+    margin: 16px 16px;
+}
+
+.hobbies__content {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: hobbies;
+    justify-content: space-between;
+}
+
+.hobbies__content__card {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas: 
+    "hobbie-img"
+    "hobbie-base";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto;
+    margin-top: 20px;
+    padding: 1.3rem 1rem 0rem 1rem;
+    width: calc(50% - 3rem);
+}
+
+.hobbies__content__img {
+    grid-area: hobbie-img;
+    height: 100%;
+    width: 100%;
+}
+
+.hobbies__content__description {
+    grid-area: hobbie-base;
+    text-align: center;
+    
+}
