@@ -16,7 +16,7 @@
     "hobbie-img"
     "hobbie-base";
     grid-template-columns: 100%;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 50px auto;
     margin-top: 20px;
     padding: 1.3rem 1rem 0rem 1rem;
     width: calc(50% - 3rem);
@@ -25,11 +25,10 @@
 .hobbies__content__img {
     grid-area: hobbie-img;
     height: 100%;
-    width: 100%;
+    width: 50%;
+    text-align: center;
 }
 
 .hobbies__content__description {
-    grid-area: hobbie-base;
-    text-align: center;
-    
+    grid-area: hobbie-base;    
 }
