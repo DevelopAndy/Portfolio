@@ -9,6 +9,10 @@ body {
     margin-top: 18.5px;
 }
 
+.container {
+    margin: 32px 32px;
+}
+
 .title {
     font-size: 22px;
     font-weight: 700;
