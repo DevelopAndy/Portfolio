@@ -13,6 +13,11 @@ body {
     margin: 32px 32px;
 }
 
+.container-blue {
+    background: #EAF2FD;
+    padding: 0.1px;
+}
+
 .logo {
     font-size: 16px;
     font-weight: 700;
@@ -28,6 +33,7 @@ body {
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 li {
