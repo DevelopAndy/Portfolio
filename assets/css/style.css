@@ -25,3 +25,7 @@ body {
     margin-bottom: 0;
     text-align: center;
 }
+
+ul {
+    list-style: none;
+}
