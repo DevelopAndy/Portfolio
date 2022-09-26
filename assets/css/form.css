@@ -1,0 +1,12 @@
+.input-same {
+    border-radius: 4px;
+    gap: 4px;
+    height: 56px;
+    width: 296px;
+}
+
+#msg {
+    height: 133px;
+    resize: none;
+    width: 296px;
+}
