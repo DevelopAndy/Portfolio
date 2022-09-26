@@ -10,3 +10,10 @@
     resize: none;
     width: 296px;
 }
+
+#btn-submit {
+    background: #2A7AE4;
+    color: #ffffff;
+    height: 40px;
+    width: 133px;
+}
