@@ -9,3 +9,11 @@
     }
 }
 
+@media screen and (min-width: 768px){
+    .hero__img {
+        height: 146px;
+        width: 146px;
+        margin-top: 0;
+    }
+}
+
