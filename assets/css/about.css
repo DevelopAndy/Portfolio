@@ -28,3 +28,13 @@
         height: 80px;
     }
 }
+
+@media screen and (min-width: 768px){
+    .about__content {
+        margin: 32px 32px;
+    }
+
+    .about__content__signature {
+        background-size: 30%;
+    }
+}
