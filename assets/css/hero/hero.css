@@ -3,7 +3,6 @@
         position: relative;
         padding: 0;
         gap: 16px;
-        width: 328px;
         margin-left: 16px;
         margin-right: 16px;
         
@@ -38,6 +37,19 @@
     
     .hero__networks a:visited {
         color: #464646;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hero {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content:space-around;
+    }
+
+    .hero__content {
+        width: 524px;
     }
 }
 
