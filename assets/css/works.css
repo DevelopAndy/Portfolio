@@ -55,3 +55,22 @@
     }    
 }
 
+@media screen and (min-width: 768px){
+    .works__content__card__img {
+        height: 320px;
+        width: 704px;
+    }
+
+    .works__content__card__title {
+        margin-top: 16px;
+    }
+    
+    .works__content__card__description {
+        margin-top: 16px;
+    }
+
+    .works__content__card__btn {
+        margin-right: 10px;
+    }
+}
+
