@@ -1,28 +1,30 @@
-.about {
-    background: #EAF2FD;
-    padding-top: 0.5px;
-    padding-bottom: 0.5px;
-}
-
-.about__content {
-    margin: 16px 16px;
-}
-
-.about__content__title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 26px;
-}
-
-.about__content__description {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-}
-
-.about__content__signature {
-    background-image: url(../img/img_firma-3-1200x550-cc.jpg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    height: 80px;
+@media screen and (min-width: 360px) {
+    .about {
+        background: #EAF2FD;
+        padding-top: 0.5px;
+        padding-bottom: 0.5px;
+    }
+    
+    .about__content {
+        margin: 16px 16px;
+    }
+    
+    .about__content__title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    
+    .about__content__description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    
+    .about__content__signature {
+        background-image: url(../img/img_firma-3-1200x550-cc.jpg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        height: 80px;
+    }
 }
