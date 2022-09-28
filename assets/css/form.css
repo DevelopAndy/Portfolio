@@ -23,3 +23,21 @@
         width: 133px;
     }    
 }
+
+@media screen and (min-width: 768px){
+    .contact h2 {
+        margin-bottom: 8px;
+    }
+
+    form p {
+        margin: 3px;
+    }
+    
+    .input-same {
+        width: 100%;
+    }
+    
+    #msg {
+        width: 100%;
+    }
+}
