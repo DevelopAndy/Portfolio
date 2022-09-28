@@ -23,3 +23,39 @@
         margin-top: 0;
     }
 }
+
+@media screen and (min-width: 768px){
+    .education__content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        grid-area: education;       
+    }
+
+    .education__content__card {
+        display: grid;
+        grid-template-areas: 
+        "education-img"
+        "education-title"
+        "education-description";
+        grid-template-columns: 100%;
+        grid-template-rows: 200px auto auto;
+        margin-top: 20px;
+        padding: 1.3rem 1rem 0rem 1rem;
+        width: calc(50% - 3rem);
+    }
+
+    .education__content__img {
+        grid-area: education-img;
+        height: 100%;
+        width: 100%;
+    }
+
+    .education__content__title {
+        grid-area: education-title;
+    }
+
+    .education__content__description {
+        grid-area: education-description;
+    }
+}
