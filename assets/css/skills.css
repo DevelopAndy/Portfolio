@@ -6,8 +6,8 @@
     .skills__content {
         display: flex;
         flex-wrap: wrap;
+        gap: 1.5rem;
         grid-area: skills;
-        justify-content: space-between;
     }
     
     .skills__skill {
@@ -33,4 +33,14 @@
         grid-area: skill-base;
         text-align: center;
     }    
+}
+
+@media screen and (min-width: 768px){
+    .skills {
+        margin: 32px 32px;
+    }
+
+    .skills__skill {      
+        width: calc(33% - 3rem);
+    }
 }
