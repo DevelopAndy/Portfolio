@@ -55,6 +55,8 @@
 @media screen and (min-width: 1024px){
     .title {
         font-size: 32px;
+        margin-bottom: 32px;
+        margin-top: 32px;
     }
     
     ul {
