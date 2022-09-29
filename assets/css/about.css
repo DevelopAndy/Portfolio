@@ -38,3 +38,17 @@
         background-size: 30%;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .about__content {
+        margin: 64px 152px 64px 152px;
+    }
+    
+    .about__content__title {
+        font-size: 32px;
+    }
+
+    .about__content__signature {
+        width: 580px;
+    }
+}
