@@ -17,3 +17,10 @@
     }
 }
 
+@media screen and (min-width: 1024px){
+    .hero__img {
+        height: 318px;
+        width: 358px;
+    }
+}
+
