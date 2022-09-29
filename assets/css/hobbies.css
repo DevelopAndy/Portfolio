@@ -46,3 +46,13 @@
         width: calc(33% - 3rem);
     }
 }
+
+@media screen and (min-width: 1024px){
+    .hobbies {
+        margin: auto 152px 88px 152px;
+    }
+
+    .hobbies__content__card {
+        width: calc(16% - 3rem);
+    }
+}

@@ -49,7 +49,6 @@
 @media screen and (min-width: 1024px){
     .skills {
         margin: auto 152px auto 152px;
-        padding: 0.01px;
     }
 
     .skills__content {
