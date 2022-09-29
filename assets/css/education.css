@@ -59,3 +59,17 @@
         grid-area: education-description;
     }
 }
+
+@media screen and (min-width: 1024px){
+.education__content {
+    margin-top: -32px;
+}
+
+    .education__content__card {
+        width: calc(33% - 3rem);
+    }
+
+    .education__content__description {
+        margin-bottom: 0;
+    }
+}
