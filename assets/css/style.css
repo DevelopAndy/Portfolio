@@ -51,3 +51,13 @@
         margin-top: 32px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    ul {
+        margin-top: 0;
+    }
+
+    li {
+        margin-bottom: 0;
+    }
+}
