@@ -54,3 +54,21 @@
     }
 }
 
+@media screen and (min-width: 1024px){
+    .hero {
+        margin-bottom: 93px;
+        margin-left: 152px;
+        margin-right: 152px;
+        justify-content: space-between;
+    }
+
+    .hero__title {
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    .hero__content {
+        width: 751px;
+    }
+}
+
