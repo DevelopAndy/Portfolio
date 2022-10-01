@@ -55,6 +55,7 @@
 @media screen and (min-width: 1024px){
     .container {
         margin: 82px 152px 82px 152px;
+        display: block;
     }
     
     .title {
