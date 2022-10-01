@@ -114,6 +114,7 @@
     .img-invert {
         grid-column: 2 / 4;
         grid-row: 1 / 4;
+        q
     }
 
     .base-invert:nth-child(2) {
