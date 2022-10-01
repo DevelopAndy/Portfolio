@@ -22,6 +22,7 @@
     .menu {
         display: flex;
         height: 50px;
+        flex-direction: column-reverse;
     }
     
     .menu__item {
